@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "image": "",
+      "group": "groupone",
+      "id": "Joseph",
+      "tooltip": "insert info about yourself here",
+      "level": "1"
+    },
+    {
+      "image": "",
+      "group": "groupone",
+      "id": "Joseph 2",
+      "tooltip": "insert info about yourself here",
+      "level": "1"
+    },
+    {
+      "image": "",
+      "group": "grouptwo",
+      "id": "Alex 1",
+      "tooltip": "insert info about yourself here",
+      "level": "2"
+    },
+    {
+      "image": "",
+      "group": "grouptwo",
+      "id": "Alex 2",
+      "tooltip": "insert info about yourself here",
+      "level": "2"
+    }
+  ],
+  "links": [
+    {
+      "source": "Joseph",
+      "target": "Joseph 2",
+      "relationship": "loves himself"
+    },
+    {
+      "source": "Alex 1",
+      "target": "Alex 2",
+      "relationship": "loves himself as well"
+    },
+    {
+      "source": "Alex 1",
+      "target": "Joseph",
+      "relationship": "flatmate times"
+    },
+    {
+      "source": "Alex 1",
+      "target": "Joseph 2",
+      "relationship": "flatmate and secret twin"
+    }
+  ]
+}
